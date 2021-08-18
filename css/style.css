@@ -51,12 +51,11 @@ body {
   align-items: center;
   position: relative;
   margin-top: 4px;
-  transition: background-color 0.4s ease;
+  transition: background-color 0.6s linear;
 }
 
 .landingpage_section-logo-container {
   background-color: #123c62;
-  transition: background-color 0.6s linear;
 }
 .landingpage_section-container:nth-child(2)
   .landingpage_section-logo-container {
