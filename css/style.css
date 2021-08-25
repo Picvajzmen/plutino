@@ -26,7 +26,7 @@ body {
   min-width: 240px;
   display: flex;
   flex-direction: column;
-  height: 100vh; /* 19.08.*/
+  height: calc(100vh - 80px); /* 19.08.*/
 }
 
 .landingpage_section-container:nth-child(3) {
@@ -122,6 +122,17 @@ body {
   }
   .innerlandingpage_container {
     min-height: 260px;
+  }
+
+  /*====== IMAGE POSITIIONING ======*/
+  .landingpage_section-container:nth-child(1) .innerlandingpage_container {
+    background-position: 50% 25%;
+  }
+  .landingpage_section-container:nth-child(2) .innerlandingpage_container {
+    background-position: 50% 30%;
+  }
+  .landingpage_section-container:nth-child(3) .innerlandingpage_container {
+    background-position: 50% 30%;
   }
 }
 
