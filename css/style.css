@@ -35,6 +35,7 @@ body {
 /*====== IMAGE SECTION =======*/
 .innerlandingpage_container {
   height: 100%; /* 19.08.*/
+  width: 100%;
   min-height: 430px;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -42,6 +43,7 @@ body {
 }
 .landingpage_section-container:nth-child(1) .innerlandingpage_container {
   background-image: url("img/girl.jpg");
+
 }
 .landingpage_section-container:nth-child(2) .innerlandingpage_container {
   background-image: url("img/rollercoaster.jpg");
