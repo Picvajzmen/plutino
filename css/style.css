@@ -22,7 +22,7 @@ body {
 }
 
 .landingpage_container-wrapper {
-  height: 100vh;
+  /* height: 100vh; */
   padding: 40px;
 }
 .landingpage_container {
