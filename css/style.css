@@ -1,4 +1,5 @@
-/*08.31.ver*/
+/*08.31.ver
+14.09. ver*/
 body {
   box-sizing: border-box;
   scroll-behavior: smooth;
@@ -43,29 +44,23 @@ body {
   background-position: 50% 50%;
   background-size: cover;
 }
-.landingpage_section-container:nth-child(1) .innerlandingpage_container {
-  background-image: url("img/girl.jpg");
 
-}
-.landingpage_section-container:nth-child(2) .innerlandingpage_container {
-  background-image: url("img/rollercoaster.jpg");
-}
-.landingpage_section-container:nth-child(3) .innerlandingpage_container {
-  background-image: url("img/fotograph.jpg");
-  margin-right: 0;
-}
-/*====== IMAGE POSITIIONING ======*/
+/*====== IMAGE POSITIIONING AND VARIABLES======*/
 
-.img-1_pos {
-  background-position: var(--img-1);
+.img-one {
+  background-position: var(--pos-one);
+  background-image: var(--img-one);
 }
   
-.img-2_pos {
-  background-position: var(--img-2);
+.img-two {
+  background-position: var(--pos-two);
+  background-image: var(--img-two);
 }
 
-.img-3_pos {
-  background-position: var(--img-3);
+.img-three {
+  background-position: var(--pos-three);
+  background-image: var(--img-three);
+  margin-right: 0;
 }
 
 /*====== LOGO SECTION =======*/
